@@ -1,0 +1,32 @@
+.profile-container {
+    width: 50vw;
+    padding: 5rem;
+    border-radius: 0.25rem;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+  }
+
+  .main_profil {
+    padding: 0 20rem;
+  }
+
+  .button_form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }

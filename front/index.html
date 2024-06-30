@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Streaming Platform</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="profil.html">Profil</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+    <main>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+            <button>Rechercher</button>
+        </div>
+        <section class="swiper_section">
+            <swiper-container class="mySwiper" navigation="true">
+            </swiper-container>
+        </section>
+        <section class="film_section">
+            <div id="film_container" class="film_container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Streaming. Tous droits réservés.</p>
+      </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/api/like.js"></script>
+    <script src="js/fetchFilm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+</html>

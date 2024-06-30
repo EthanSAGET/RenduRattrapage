@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+      <h1>Page Inscription</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="profil.html">Profil</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+    <main class="form_register_login">
+        <form>
+          <h1 class="title_form">Inscription</h1>
+            <label for="email">Votre adresse mail</label>
+            <input type="email" name="email" />
+            <label for="name"> Votre prénom</label>
+            <input type="text" name="name" />
+            <label for="password">Votre mot de passe</label>
+            <input type="password" name="password" />
+            <button type="button" onclick="register()">S'inscrire</button>
+            <a href="connexion.html">Se connecter</a>
+        </form>
+    </main>
+    <footer>
+      <p>&copy; 2024 Streaming. Tous droits réservés.</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/api/register.js"></script>
+</body>
+</html>

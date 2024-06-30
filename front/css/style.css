@@ -1,0 +1,103 @@
+@import url("../css/styles/formulaire.css");
+@import url("../css/styles/pageprofil.css");
+@import url("../css/styles/accueil.css");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #171616;
+}
+
+header {
+    background-color: #333;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem; 
+}
+
+nav {
+    margin-top: 0.625rem;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.625rem 1rem; 
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+    border-radius: 0.25rem;
+}
+
+.menu-toggle {
+    display: none;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.625rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0.625rem;
+    right: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem  1.5rem;
+    font-size: 14px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button {
+    width: fit-content;
+}
+.btn:hover {
+    background-color: #575757;
+}
+
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 5rem;
+    color: white;
+    position: relative;
+    margin-top: auto;
+    width: 100%;
+}
+

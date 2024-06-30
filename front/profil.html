@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Page profil</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+          <li><a href="profil.html">Profil</a></li>
+        </ul>
+        <button class="menu-toggle">☰</button>
+      </nav>
+    </header>
+    <main class="main_profil">
+      <div class="profile-container">
+        <h2>Paramètres du profil</h2>
+        <form id="profile-form">
+          <div class="form-group">
+            <div id="user"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="notification">Notifications :</label>
+            <select id="notification" name="notification">
+              <option value="all">Tous</option>
+              <option value="important">Important seulement</option>
+              <option value="none">Aucun</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="theme">Thème :</label>
+            <select id="theme" name="theme">
+              <option value="light">Clair</option>
+              <option value="dark">Sombre</option>
+            </select>
+          </div>
+
+          <div class="button_form">
+            <button type="submit">Sauvegarder</button>
+            <button onclick="logout()">Deconnexion</button>
+          </div>
+          
+        </form>
+        
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Streaming. Tous droits réservés.</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/api/getUser.js"></script>
+    <script src="js/api/logout.js"></script>
+  </body>
+</html>
